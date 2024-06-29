@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+//@ts-ignore
 import React from 'react'
 import { Button } from 'react-bootstrap'
 
