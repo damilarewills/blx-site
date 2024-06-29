@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Layout>
+      <Layout data={[]}>
         <h1>Hi Willie!!!</h1>
       </Layout>
     </>

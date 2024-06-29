@@ -13,7 +13,7 @@ interface LayoutProps {
 }
 
 
-export default function Layout ({ children, payload }: LayoutProps ) {
+export default function Layout ({ children, data }: LayoutProps ) {
     return (
         <div>
             <header>
