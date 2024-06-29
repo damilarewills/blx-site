@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 //@ts-ignore
 import React from 'react'
@@ -11,7 +12,7 @@ interface LayoutProps {
 }
 
 
-export default function Layout ({ children }: LayoutProps ) {
+export default function Layout ({ children, payload }: LayoutProps ) {
     return (
         <div>
             <header>
