@@ -13,13 +13,14 @@ interface LayoutProps {
 }
 
 
-export default function Layout ({ children, data }: LayoutProps ) {
+export default function Layout (props: LayoutProps ) {
+    
     return (
         <div>
             <header>
                 <Navbar/>
             </header>
-            <div>{children}</div>
+            <div>{props.children}</div>
             <footer></footer>
         </div>
     )
