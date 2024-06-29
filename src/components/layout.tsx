@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 //@ts-ignore
 import React from 'react'
-import { Button } from 'react-bootstrap'
+import Navbar from './navbar'
 
 interface LayoutProps {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -13,9 +13,7 @@ export default function Layout ({ children }: LayoutProps ) {
     return (
         <div>
             <header>
-                <nav>
-                    <Button variant="primary">Click Me</Button>
-                </nav>
+                <Navbar/>
             </header>
             <div>{children}</div>
             <footer></footer>
