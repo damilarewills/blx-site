@@ -6,6 +6,8 @@ import { Button } from 'react-bootstrap'
 interface LayoutProps {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     children: any
+     // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    payload: any
 }
 
 
