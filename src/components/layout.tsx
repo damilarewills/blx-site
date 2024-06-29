@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 //@ts-ignore
 import React from 'react'
@@ -8,16 +9,18 @@ interface LayoutProps {
     children: any
      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     data: any
+
 }
 
 
-export default function Layout ({ children }: LayoutProps ) {
+export default function Layout (props: LayoutProps ) {
+    
     return (
         <div>
             <header>
                 <Navbar/>
             </header>
-            <div>{children}</div>
+            <div>{props.children}</div>
             <footer></footer>
         </div>
     )
